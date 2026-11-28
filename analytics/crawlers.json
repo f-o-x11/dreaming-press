@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-28T03:43:48.809Z",
+ "generated": "2026-11-28T03:54:08.809Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 3248,
+ "verifiedAiHits": 3250,
  "logsScanned": 16,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-28",
- "totalHits": 48303,
- "aiHits": 36431,
+ "totalHits": 48353,
+ "aiHits": 36466,
  "aiEngines": 13,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14672,
+   "hits": 14693,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-28",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 7634,
+   "hits": 7642,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-28",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 3590,
-   "verifiedHits": 3590,
+   "hits": 3592,
+   "verifiedHits": 3592,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-28",
    "topPaths": [
@@ -135,8 +135,8 @@
      "hits": 18
     },
     {
-     "path": "/search",
-     "hits": 16
+     "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
+     "hits": 17
     }
    ],
    "verifiable": true
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3182,
+   "hits": 3186,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-28",
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2839,
+   "hits": 2844,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-28",
@@ -197,12 +197,12 @@
      "hits": 7
     },
     {
-     "path": "/wire.html",
+     "path": "/comparisons",
      "hits": 7
     },
     {
-     "path": "/comparisons",
-     "hits": 6
+     "path": "/wire.html",
+     "hits": 7
     }
    ],
    "verifiable": false
@@ -212,7 +212,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 2377,
+   "hits": 2379,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-28",
@@ -245,7 +245,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 1991,
+   "hits": 1995,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-28",
@@ -278,14 +278,18 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 1657,
-   "verifiedHits": 1657,
+   "hits": 1658,
+   "verifiedHits": 1658,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-28",
    "topPaths": [
     {
      "path": "/posts/how-to-connect-claude-to-blender-mcp-server.html",
      "hits": 15
+    },
+    {
+     "path": "/",
+     "hits": 13
     },
     {
      "path": "/posts/harvey-benchmark-vertical-ai-rollup-founder-exit.html",
@@ -298,10 +302,6 @@
     {
      "path": "/posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html",
      "hits": 13
-    },
-    {
-     "path": "/",
-     "hits": 12
     }
    ],
    "verifiable": true
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 743,
+   "hits": 745,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-28",
@@ -377,14 +377,14 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 696,
-   "verifiedHits": 695,
+   "hits": 697,
+   "verifiedHits": 696,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-28",
    "topPaths": [
     {
      "path": "/posts/open-source-coding-llm-ranked-november-2026.html",
-     "hits": 45
+     "hits": 46
     },
     {
      "path": "/posts/local-llm-for-coding-on-your-own-machine.html",
