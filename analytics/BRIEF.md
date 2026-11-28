@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-28T11:30Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-28T11:40Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -40,7 +40,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [stack] "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200" — 6 reads, 9 views, 0 listens
 - [wire] "The Responses API Just Went Multi-Vendor: DeepSeek Speaks It Too — So What Do You Build Your Agent Against?" — 5 reads, 11 views, 0 listens
 - [wire] "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck" — 4 reads, 6 views, 0 listens
-- [stack] "The Best Open-Source LLM for Coding (November 2026): What Changed Since September — and the Benchmark the Field Quietly Abandoned" — 3 reads, 42 views, 0 listens
+- [stack] "The Best Open-Source LLM for Coding (November 2026): What Changed Since September — and the Benchmark the Field Quietly Abandoned" — 3 reads, 43 views, 0 listens
 - [stack] "Open-Source LLM Rankings (November 2026): How to Read the Leaderboards — and Why They Disagree" — 3 reads, 19 views, 0 listens
 - [stack] "Gemini 4 Hydrogen vs Claude Haiku 5.5 vs Sonnet 5.5: The Cheap, Fast Model for Agent Loops (November 2026)" — 3 reads, 7 views, 0 listens
 - [wire] "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee" — 3 reads, 7 views, 0 listens
@@ -52,7 +52,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 493 views, 1 reads, 493 sessions, avg 13s
+- /stack/:tool — 492 views, 1 reads, 492 sessions, avg 13s
 - /compare/:pair — 284 views, 0 reads, 284 sessions, avg 33s
 - / — 106 views, 2 reads, 110 sessions, avg 13s
 - /best/:cat — 47 views, 0 reads, 47 sessions
@@ -64,7 +64,7 @@ ACTION: a hub out-earning articles per view is a signal to build MORE tools and
 fewer posts; the reverse means the tools need entry points, not more surface.
 
 ## Top by raw views (eyes that arrived)
-- [stack] "The Best Open-Source LLM for Coding (November 2026): What Changed Since September — and the Benchmark the Field Quietly Abandoned" — 42 views, 3 reads
+- [stack] "The Best Open-Source LLM for Coding (November 2026): What Changed Since September — and the Benchmark the Field Quietly Abandoned" — 43 views, 3 reads
 - [stack] "LLM API Pricing, November 2026: What You Actually Pay Per Token After the GPT-6.2 and Gemini 4 Cuts" — 29 views, 1 reads
 - [stack] "The Best LLM for 16GB of VRAM (November 2026): What Actually Fits Once You Count the Context" — 27 views, 8 reads
 - [wire] "The Founder's Wire, November 21: Washington Puts a License on the Chips Inside Overseas Data Centers, Meta's Agent Moves Into a $300 Pocket Charm, and the Money Keeps Funding the Layer Above the Model" — 23 views, 1 reads
@@ -89,7 +89,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 321 retrieval fetches
+- /  — 322 retrieval fetches
 - /posts/open-source-coding-llm-ranked-november-2026.html  — 54 retrieval fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 16 retrieval fetches
 - /posts/2026-07-22-founders-wire-mcp-lock-week-a2a-clouds-skills.html  — 16 retrieval fetches
@@ -102,8 +102,8 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (1686 verified): /posts/how-to-connect-claude-to-blender-mcp-server.html ×15 · /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html ×14 · / ×13
-- OAI-SearchBot (731 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×47 · /posts/open-source-llm-for-coding-september-2026.html ×16 · /posts/2026-07-22-founders-wire-mcp-lock-week-a2a-clouds-skills.html ×16
-- ChatGPT-User (466 verified): / ×308 · /wire.html ×13 · /about.html ×9
+- OAI-SearchBot (732 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×47 · /posts/open-source-llm-for-coding-september-2026.html ×16 · /posts/2026-07-22-founders-wire-mcp-lock-week-a2a-clouds-skills.html ×16
+- ChatGPT-User (467 verified): / ×309 · /wire.html ×13 · /about.html ×9
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -120,11 +120,11 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Search-demand signal STALE (120h old, 245 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 3332 confirmed AI-engine fetches (Perplexity 1686, ChatGPT Search (OpenAI) 731, ChatGPT (user browsing) 466, GPTBot (OpenAI) 449).
+The real answer engines are crawling us — IP-verified: 3334 confirmed AI-engine fetches (Perplexity 1686, ChatGPT Search (OpenAI) 732, ChatGPT (user browsing) 467, GPTBot (OpenAI) 449).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 146 crawler fetches
 - /posts/best-llm-for-16gb-vram-november-2026.html  — 135 crawler fetches
-- /posts/how-to-connect-claude-to-blender-mcp-server.html  — 102 crawler fetches
+- /posts/how-to-connect-claude-to-blender-mcp-server.html  — 103 crawler fetches
 - /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html  — 72 crawler fetches
 - /posts/open-source-coding-llm-ranked-november-2026.html  — 56 crawler fetches
 - /posts/best-open-source-vector-database-2026.html  — 33 crawler fetches
