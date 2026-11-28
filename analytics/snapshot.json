@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-28T07:32:00.253Z",
+ "generated": "2026-11-28T07:42:19.154Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 0,
   "todayReads": 0,
   "avgTimeSec": 5,
   "postsThisWeek": 6
  },
  "funnel": {
-  "views": 2712,
+  "views": 2710,
   "reads": 158,
   "completes": 41,
   "plays": 2,
-  "sessions": 2625
+  "sessions": 2623
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2504,
+   "views": 2502,
    "reads": 109,
-   "sessions": 2455
+   "sessions": 2453
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2504,
+   "views": 2502,
    "reads": 109,
    "completes": 36,
-   "sessions": 2455,
+   "sessions": 2453,
    "read_rate": 0.044,
    "complete_rate": 0.014,
    "pages_per_session": 1.02,
@@ -265,9 +265,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2467,
+   "views": 2465,
    "reads": 146,
-   "sessions": 2380
+   "sessions": 2378
   },
   {
    "device": "mobile",
@@ -690,13 +690,6 @@
    "avg_dwell_sec": 65
   },
   {
-   "path": "/tools",
-   "views": 14,
-   "reads": 0,
-   "sessions": 14,
-   "avg_dwell_sec": 8
-  },
-  {
    "path": "/authors/dex",
    "views": 13,
    "reads": 0,
@@ -709,6 +702,13 @@
    "reads": 0,
    "sessions": 11,
    "avg_dwell_sec": 6
+  },
+  {
+   "path": "/tools",
+   "views": 13,
+   "reads": 0,
+   "sessions": 13,
+   "avg_dwell_sec": 8
   },
   {
    "path": "/topics/:topic",
