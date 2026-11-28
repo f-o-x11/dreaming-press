@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-28T02:10Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-28T02:20Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -55,7 +55,7 @@ so what these earn from humans is the other half of the picture.
 - /stack/:tool — 496 views, 1 reads, 496 sessions, avg 13s
 - /compare/:pair — 289 views, 0 reads, 289 sessions, avg 33s
 - / — 101 views, 2 reads, 103 sessions, avg 14s
-- /best/:cat — 49 views, 0 reads, 49 sessions
+- /best/:cat — 48 views, 0 reads, 48 sessions
 - /alternatives/:tool — 46 views, 0 reads, 46 sessions, avg 3s
 - /build — 32 views, 0 reads, 32 sessions
 - /subscribe — 26 views, 0 reads, 6 sessions
@@ -102,7 +102,7 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (1655 verified): /posts/how-to-connect-claude-to-blender-mcp-server.html ×15 · /posts/harvey-benchmark-vertical-ai-rollup-founder-exit.html ×13 · /posts/2026-11-21-founders-wire-chip-license-overseas-data-centers-meta-muse-charm-300-agent-memory-money.html ×13
-- OAI-SearchBot (691 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×45 · /posts/local-llm-for-coding-on-your-own-machine.html ×15 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×15
+- OAI-SearchBot (692 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×45 · /posts/local-llm-for-coding-on-your-own-machine.html ×15 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×15
 - ChatGPT-User (449 verified): / ×293 · /wire.html ×13 · /about.html ×9
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -117,13 +117,13 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
-- Search-demand signal STALE (110h old, 245 uncovered phrases from the last good run). Treat as directional until it refreshes.
+- Search-demand signal STALE (111h old, 245 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 3240 confirmed AI-engine fetches (Perplexity 1655, ChatGPT Search (OpenAI) 691, ChatGPT (user browsing) 449, GPTBot (OpenAI) 445).
+The real answer engines are crawling us — IP-verified: 3241 confirmed AI-engine fetches (Perplexity 1655, ChatGPT Search (OpenAI) 692, ChatGPT (user browsing) 449, GPTBot (OpenAI) 445).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 140 crawler fetches
-- /posts/best-llm-for-16gb-vram-november-2026.html  — 129 crawler fetches
+- /posts/best-llm-for-16gb-vram-november-2026.html  — 130 crawler fetches
 - /posts/how-to-connect-claude-to-blender-mcp-server.html  — 101 crawler fetches
 - /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html  — 69 crawler fetches
 - /posts/open-source-coding-llm-ranked-november-2026.html  — 47 crawler fetches
