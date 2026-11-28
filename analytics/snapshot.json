@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-28T14:58:49.376Z",
+ "generated": "2026-11-28T15:09:08.075Z",
  "windowDays": 14,
  "site": {
   "readersNow": 0,
@@ -8,18 +8,18 @@
   "postsThisWeek": 6
  },
  "funnel": {
-  "views": 2673,
+  "views": 2669,
   "reads": 159,
   "completes": 40,
-  "plays": 2,
-  "sessions": 2585
+  "plays": 1,
+  "sessions": 2581
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2466,
+   "views": 2462,
    "reads": 110,
-   "sessions": 2417
+   "sessions": 2413
   },
   {
    "channel": "organic",
@@ -67,14 +67,14 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2466,
+   "views": 2462,
    "reads": 110,
    "completes": 35,
-   "sessions": 2417,
+   "sessions": 2413,
    "read_rate": 0.045,
    "complete_rate": 0.014,
    "pages_per_session": 1.02,
-   "median_dwell_sec": 7
+   "median_dwell_sec": 6
   },
   {
    "channel": "organic",
@@ -248,9 +248,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2436,
+   "views": 2432,
    "reads": 147,
-   "sessions": 2348
+   "sessions": 2344
   },
   {
    "device": "mobile",
@@ -423,16 +423,6 @@
    "plays": 1
   },
   {
-   "slug": "run-claude-code-on-qwen-coding-plan",
-   "title": "Run Claude Code on Alibaba's Qwen Coding Plan: the ~$50/mo Agent Backend",
-   "section": "stack",
-   "tags": "[\"how-to\",\"tools\"]",
-   "author": "dex",
-   "views": 3,
-   "reads": 0,
-   "plays": 1
-  },
-  {
    "slug": "openai-responses-api-state-previous-response-id-vs-conversations-api",
    "title": "Responses API State: previous_response_id vs the Conversations API vs Rolling Your Own",
    "section": "stack",
@@ -509,6 +499,16 @@
    "tags": "[\"reportive\",\"howto\"]",
    "author": "indexer",
    "views": 17,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "gemini-4-hydrogen-vs-claude-haiku-sonnet-fast-agent-model-november-2026",
+   "title": "Gemini 4 Hydrogen vs Claude Haiku 5.5 vs Sonnet 5.5: The Cheap, Fast Model for Agent Loops (November 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 7,
    "reads": 3,
    "plays": 0
   }
