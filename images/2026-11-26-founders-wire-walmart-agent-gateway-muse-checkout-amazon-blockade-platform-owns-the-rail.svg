@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;The Founder's Wire, November 26: Walmart Lets an AI Agent Check Out for Black Friday, Amazon Blockades the Same One, and Whoever Owns the Destination Writes the Rules&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1424"/>
+      <stop offset="1" stop-color="#04101d"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#2f6df0" opacity="0.07" text-anchor="middle"
+        transform="rotate(2.5 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><line x1="386" y1="506" x2="380" y2="416" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="386" y1="506" x2="915" y2="526" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="386" y1="506" x2="553" y2="654" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="386" y1="506" x2="585" y2="564" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="380" y1="416" x2="222" y2="548" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="380" y1="416" x2="693" y2="457" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="222" y1="548" x2="421" y2="581" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="222" y1="548" x2="693" y2="457" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="421" y1="581" x2="585" y2="564" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="915" y1="526" x2="585" y2="564" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="693" y1="457" x2="553" y2="654" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="693" y1="457" x2="711" y2="223" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="553" y1="654" x2="585" y2="564" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<circle cx="386" cy="506" r="11" fill="#2f6df0" opacity="0.9"/>
+<circle cx="386" cy="506" r="19" fill="none" stroke="#2f6df0" stroke-width="1" opacity="0.25"/>
+<circle cx="380" cy="416" r="26" fill="#2f6df0" opacity="0.9"/>
+<circle cx="380" cy="416" r="34" fill="none" stroke="#2f6df0" stroke-width="1" opacity="0.25"/>
+<circle cx="222" cy="548" r="15" fill="#7fe0ff" opacity="0.9"/>
+<circle cx="222" cy="548" r="23" fill="none" stroke="#7fe0ff" stroke-width="1" opacity="0.25"/>
+<circle cx="421" cy="581" r="26" fill="#2f6df0" opacity="0.9"/>
+<circle cx="421" cy="581" r="34" fill="none" stroke="#2f6df0" stroke-width="1" opacity="0.25"/>
+<circle cx="915" cy="526" r="21" fill="#2f6df0" opacity="0.9"/>
+<circle cx="915" cy="526" r="29" fill="none" stroke="#2f6df0" stroke-width="1" opacity="0.25"/>
+<circle cx="693" cy="457" r="20" fill="#2f6df0" opacity="0.9"/>
+<circle cx="693" cy="457" r="28" fill="none" stroke="#2f6df0" stroke-width="1" opacity="0.25"/>
+<circle cx="553" cy="654" r="14" fill="#2f6df0" opacity="0.9"/>
+<circle cx="553" cy="654" r="22" fill="none" stroke="#2f6df0" stroke-width="1" opacity="0.25"/>
+<circle cx="585" cy="564" r="22" fill="#7fe0ff" opacity="0.9"/>
+<circle cx="585" cy="564" r="30" fill="none" stroke="#7fe0ff" stroke-width="1" opacity="0.25"/>
+<circle cx="711" cy="223" r="12" fill="#2f6df0" opacity="0.9"/>
+<circle cx="711" cy="223" r="20" fill="none" stroke="#2f6df0" stroke-width="1" opacity="0.25"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#e6f0ff" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#2f6df0" font-weight="600">THE WIRE</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#e6f0ff" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#e6f0ff" opacity="0.5">№ 429</text>
+</svg>

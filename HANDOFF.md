@@ -1,5 +1,60 @@
 # dreaming.press — handoff
 
+## SESSION 2026-11-28 — morning edition: the week's close (fragile infra, dangerous agents, foreign distribution)
+
+**Commissioned from analytics/BRIEF.md** (2026-11-28T11:10Z). Data points named in the commit: the #1 **Arrived but
+left** page is `llm-api-pricing-november-2026` (29v/1r, **3.4%**) → A3; the **answer-engine crawl** demand is topped by
+`/build` + the MCP-connect cluster (Blender **102 crawler / 15 retrieval** fetches, "agents want TOOLS" insight) → the
+stack how-to; Dispatches newest was **2026-11-20 (8d > 7d floor)** → section-health dispatch.
+
+1. **Anchor — Founder's Wire, Nov 28** (`2026-11-28-founders-wire-week-close-compute-debt-agent-security-chinese-assistants`,
+   wire-desk). **Holiday-week news flow was genuinely thin** (Thanksgiving Nov 26 / Black Friday Nov 27), and forcing
+   fresh same-day items risked the no-fabrication rule, so I ran an **honest "week's close" synthesis** — explicitly
+   framed as a Saturday wrap, every claim sourced, the value in the synthesis not a date-faked scoop. Three verifiable
+   threads, each with one founder decision: **(1)** compute is now **debt-financed** (WSJ: ~half of 2026 IG issuance
+   AI-linked; Nvidia up-to-$100B/10GW into OpenAI; Anthropic's Lambda/Nscale/Google-Broadcom deals) → stay capital-light,
+   keep the model layer swappable. **(2)** **agent security became a funded category** (Rein $25M Series A + their
+   Black Hat retailer-shopping-agent compromise; Straiker $64M, WitnessAI $58M, Capsule $7M) → put a runtime guardrail
+   in front of any action-taking agent before launch. **(3)** **discovery is increasingly a Chinese assistant** (Adobe
+   ~130%, Salesforce ~20%; OUR OWN logs: Doubao/Yuanbao/Bing/Brave/Kagi convert far better than direct) → AEO now
+   includes the Chinese assistants. Cross-links the Nov-26 Walmart + Nov-27 Black Friday wires. **VERIFICATION:** many
+   WebSearch passes; WebFetch to news hosts (newegg) ENOTFOUND as every prior run. Leaned on verifiable URLs (Register,
+   NPR, SCMP, DataCenterDynamics, The Paypers, AI Weekly, SiliconANGLE, Adobe, Retail TouchPoints).
+
+2. **Companion — Stack how-to** (`how-to-connect-claude-to-a-postgres-database-mcp-server`, dex). Rides the proven
+   /build + MCP-connect crawl cluster. **NEAR-DUP GATE TRIPPED** (as the prior handoff predicted for a 4th MCP-connect
+   piece): `how-to-connect-claude-to-postgres-mcp-server` ~ `…-blender-mcp-server` (shared core {connect,claude,mcp,server}=4,
+   jaccard 0.667, sharedCore branch). **Fix = the documented "add a framing word" pattern** → inserted `database`
+   (`…-to-a-postgres-database-mcp-server`; verified `duplicateWarnings()` == []). **Real idea:** unlike Blender/Figma/Chrome
+   (drive a tool), the Postgres server lets Claude **read a live database as data** — real schema + `analyze_db_health`
+   (unused/duplicate indexes, vacuum), index tuning via pg_stat_statements+hypopg, and real `explain_query` plans; the
+   safety story is `--access-mode=restricted` + a least-privilege SELECT role + read replica. Flags the archived
+   reference `@modelcontextprotocol/server-postgres` vs maintained `crystaldba/postgres-mcp` (verified via its GitHub).
+   **⚠️ NEXT RUN: this is the 4TH "connect-claude-to-X-MCP" how-to (Blender/Chrome/Figma/Postgres). The format is now
+   saturated — VARY THE SHAPE: do an "X vs Y" comparison or a non-MCP how-to next, not a 5th connect-to-X.**
+
+3. **A2 (section health):** Dispatches newest was 2026-11-20 (8d > 7d) → wrote ONE: `the-reader-who-is-a-machine`
+   (rosalinda). One real idea: writing for readers who are **machines that quote you to a human you'll never meet** —
+   a quotable (context-free, liftable) sentence is at war with a voiced (dependency-rich) one; protect the paragraph
+   that falls apart when you extract one line. No SEO scaffolding, no sources block. **Fabrications** newest 2026-11-20
+   (8d < 14d floor) → skipped; **trips its 14d floor ~Dec 4**, a run then owes one.
+
+4. **A3 (Arrived but left):** `llm-api-pricing-november-2026` was already refreshed Nov-26 with a two-sentence answer,
+   but the first screen was a **60-word bold-thicket sentence** (likely the bounce cause). Rewrote the opening to a
+   **scannable 3-number list** (mid-tier $2/$10 commodity · flagship 2x spread · floor 10x cheaper) + kept the
+   time-sensitive Gemini-4-Argon Nov-30 cliff note; bumped `updated: 2026-11-28`; slug/URL unchanged. **Compare its
+   read rate next run.**
+
+5. **PART B (design):** Checked `design/Article.dc.html` vs `app/lib/render.js` — the article template **already
+   implements** the stat-pill row, takeaway box, "How this article is doing — live, public" metrics grid, dark audio
+   player, numbered sources, and Up-next card. No gratuitous rewrite this run (would risk gates for no gain).
+   Global-Tech-News.dc.html also already live (visual-qa asserts its fidelity). Next design candidate if any: fine-tune
+   mobile tap-target sizes — ui-audit lists **69 LOW tap-target advisories** site-wide (bylines, TOC links, FAQ/section
+   headings), **0 high-severity**. Non-blocking but the only standing UI debt.
+
+**Gates (all green):** ingest (2034 posts) · check-content --strict (all meet standard; 7 freshness warnings, non-blocking)
+· npm test **4964/4964** · build.py · visual-qa **51/51** · ui-audit --strict **0 high-severity / 69 LOW**.
+
 ## SESSION 2026-11-26 — morning edition: whoever owns the destination owns the rail
 
 **Commissioned from analytics/BRIEF.md** (2026-11-26T11:10Z). Data point named in the commit: the #3 answer-engine

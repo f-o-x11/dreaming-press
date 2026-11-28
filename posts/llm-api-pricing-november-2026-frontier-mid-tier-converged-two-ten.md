@@ -22,7 +22,12 @@ sources:
 
 > "The flagship tier still has a spread, but the workhorse tier collapsed to one number: $2/$10 per million tokens, the same at OpenAI, Anthropic and Google. Here's the full map — and the three line items that quietly decide your bill."
 
-**If you're pricing a build this month, here's the whole map in two sentences.** The **flagship** tier still has a real spread — OpenAI's **GPT-6.2 Astra** is **$8/$40** per million tokens, exactly **twice** Anthropic's **Claude Opus 5.5** at **$4/$20** — but the **workhorse** tier has collapsed to a single commodity price: **$2 input / $10 output**, charged to the cent by **GPT-6.2 Sol**, **Claude Sonnet 5.5**, and (on its intro rate) **Gemini 4 Argon**. Below that, the floor keeps dropping, with **Claude Haiku 5.5** at **$0.10/$0.50** and open-weight-backed APIs like **DeepSeek V4 Flash** near **$0.14/$0.28**.
+**What you actually pay per million tokens, November 2026, at a glance — three numbers tell the whole story:**
+- **Mid-tier (the workhorse): $2 in / $10 out.** The same price, to the cent, at OpenAI (**GPT-6.2 Sol**), Anthropic (**Claude Sonnet 5.5**) and Google (**Gemini 4 Argon**, intro rate). This tier is now a commodity.
+- **Flagship: a real spread.** **GPT-6.2 Astra** at **$8/$40** is exactly *twice* **Claude Opus 5.5** at **$4/$20**. Picking right here halves your bill on the hard calls.
+- **Floor: an order of magnitude cheaper.** **Claude Haiku 5.5** at **$0.10/$0.50**; open-weight-backed APIs like **DeepSeek V4 Flash** near **$0.14/$0.28**.
+
+**One clock is running out (updated November 28):** **Gemini 4 Argon's $2/$10 is an *introductory* rate scheduled to step up to $4/$20 after November 30** — now days away. If you're mid-build on Argon, that's the one number here to act on this week; everything else below is stable. The full table and the three line items that quietly decide your real bill follow.
 That convergence is the story. When three competing labs independently land on the *same* price for the tier most teams run in production, that tier has stopped being a differentiator. Model choice still changes your bill at the **flagship** (where the spread is 2x) and at the **floor** (where it's 20x) — but in the middle, you're buying a commodity, and you should shop like it.
 
 ## The table: list prices, November 2026
