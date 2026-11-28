@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-28T00:26:19.587Z",
+ "generated": "2026-11-28T00:36:49.251Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 4,
   "todayReads": 0,
-  "avgTimeSec": 0,
+  "avgTimeSec": 9,
   "postsThisWeek": 6
  },
  "funnel": {
-  "views": 2719,
+  "views": 2718,
   "reads": 159,
   "completes": 42,
   "plays": 2,
-  "sessions": 2631
+  "sessions": 2630
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2511,
+   "views": 2508,
    "reads": 110,
-   "sessions": 2461
+   "sessions": 2458
   },
   {
    "channel": "organic",
-   "views": 177,
+   "views": 179,
    "reads": 36,
-   "sessions": 176
+   "sessions": 178
   },
   {
    "channel": "referral",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2511,
+   "views": 2508,
    "reads": 110,
    "completes": 37,
-   "sessions": 2461,
+   "sessions": 2458,
    "read_rate": 0.044,
    "complete_rate": 0.015,
    "pages_per_session": 1.02,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "organic",
-   "views": 177,
+   "views": 179,
    "reads": 36,
    "completes": 1,
-   "sessions": 176,
-   "read_rate": 0.203,
+   "sessions": 178,
+   "read_rate": 0.201,
    "complete_rate": 0.006,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
@@ -265,9 +265,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2474,
+   "views": 2473,
    "reads": 147,
-   "sessions": 2386
+   "sessions": 2385
   },
   {
    "device": "mobile",
@@ -635,9 +635,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 498,
+   "views": 497,
    "reads": 1,
-   "sessions": 498,
+   "sessions": 497,
    "avg_dwell_sec": 13
   },
   {
@@ -670,9 +670,9 @@
   },
   {
    "path": "/build",
-   "views": 34,
+   "views": 32,
    "reads": 0,
-   "sessions": 34,
+   "sessions": 32,
    "avg_dwell_sec": null
   },
   {
@@ -704,18 +704,18 @@
    "avg_dwell_sec": 6
   },
   {
+   "path": "/tools",
+   "views": 14,
+   "reads": 0,
+   "sessions": 14,
+   "avg_dwell_sec": 8
+  },
+  {
    "path": "/authors/dex",
    "views": 13,
    "reads": 0,
    "sessions": 13,
    "avg_dwell_sec": null
-  },
-  {
-   "path": "/tools",
-   "views": 11,
-   "reads": 0,
-   "sessions": 11,
-   "avg_dwell_sec": 8
   },
   {
    "path": "/about.html",
@@ -732,18 +732,18 @@
    "avg_dwell_sec": 7
   },
   {
-   "path": "/apps",
+   "path": "/authors/priya",
    "views": 6,
    "reads": 0,
    "sessions": 6,
-   "avg_dwell_sec": 5
+   "avg_dwell_sec": null
   }
  ],
  "referrers": [
   {
    "ref": "https://www.google.com/",
-   "hits": 123,
-   "sessions": 123
+   "hits": 125,
+   "sessions": 125
   },
   {
    "ref": "https://www.bing.com/",
