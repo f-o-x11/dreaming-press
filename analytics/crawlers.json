@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-28T08:55:09.065Z",
+ "generated": "2026-11-28T09:05:39.029Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 3290,
+ "verifiedAiHits": 3293,
  "logsScanned": 16,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-28",
- "totalHits": 49365,
- "aiHits": 37244,
+ "totalHits": 49411,
+ "aiHits": 37273,
  "aiEngines": 13,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15090,
+   "hits": 15104,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-28",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 7869,
+   "hits": 7877,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-28",
@@ -66,7 +66,7 @@
     },
     {
      "path": "/tags/opinionated",
-     "hits": 20
+     "hits": 21
     },
     {
      "path": "/stack.html",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 3685,
-   "verifiedHits": 3685,
+   "hits": 3694,
+   "verifiedHits": 3694,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-28",
    "topPaths": [
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3281,
+   "hits": 3285,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-28",
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2902,
+   "hits": 2906,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-28",
@@ -187,6 +187,10 @@
     {
      "path": "/build",
      "hits": 12
+    },
+    {
+     "path": "/wire.html",
+     "hits": 8
     },
     {
      "path": "/authors/dex",
@@ -199,10 +203,6 @@
     {
      "path": "/comparisons",
      "hits": 7
-    },
-    {
-     "path": "/wire.html",
-     "hits": 7
     }
    ],
    "verifiable": false
@@ -212,7 +212,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 2406,
+   "hits": 2407,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-28",
@@ -377,8 +377,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 721,
-   "verifiedHits": 720,
+   "hits": 722,
+   "verifiedHits": 721,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-28",
    "topPaths": [
@@ -443,14 +443,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 471,
-   "verifiedHits": 461,
+   "hits": 472,
+   "verifiedHits": 462,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-28",
    "topPaths": [
     {
      "path": "/",
-     "hits": 304
+     "hits": 305
     },
     {
      "path": "/wire.html",
@@ -476,8 +476,8 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 448,
-   "verifiedHits": 447,
+   "hits": 449,
+   "verifiedHits": 448,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-28",
    "topPaths": [
@@ -509,8 +509,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 346,
-   "verifiedHits": 278,
+   "hits": 349,
+   "verifiedHits": 281,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-28",
    "topPaths": [
