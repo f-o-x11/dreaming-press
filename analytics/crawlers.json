@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-28T06:29:48.938Z",
+ "generated": "2026-11-28T06:40:04.670Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 3267,
+ "verifiedAiHits": 3270,
  "logsScanned": 16,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-28",
- "totalHits": 48833,
- "aiHits": 36835,
+ "totalHits": 48895,
+ "aiHits": 36882,
  "aiEngines": 13,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14882,
+   "hits": 14911,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-28",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 7753,
+   "hits": 7761,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-28",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 5396,
+   "hits": 5397,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-28",
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 3635,
-   "verifiedHits": 3635,
+   "hits": 3640,
+   "verifiedHits": 3640,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-28",
    "topPaths": [
     {
      "path": "/posts/gartner-ai-agent-spending-2026.html",
-     "hits": 28
+     "hits": 29
     },
     {
      "path": "/build",
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3228,
+   "hits": 3234,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-28",
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2867,
+   "hits": 2871,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-28",
@@ -212,7 +212,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 2392,
+   "hits": 2393,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-28",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 762,
+   "hits": 763,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-28",
@@ -377,14 +377,14 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 707,
-   "verifiedHits": 706,
+   "hits": 710,
+   "verifiedHits": 709,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-28",
    "topPaths": [
     {
      "path": "/posts/open-source-coding-llm-ranked-november-2026.html",
-     "hits": 46
+     "hits": 47
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -509,8 +509,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 335,
-   "verifiedHits": 273,
+   "hits": 339,
+   "verifiedHits": 277,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-28",
    "topPaths": [
@@ -523,15 +523,15 @@
      "hits": 4
     },
     {
+     "path": "/posts/best-llm-for-16gb-vram-november-2026.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/how-to-chunk-code-for-rag.html",
+     "hits": 2
+    },
+    {
      "path": "/posts/claude-code-vs-cowork.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/how-to-pick-parallel-coding-agent-runner-terminal-desktop-web-2026.html",
-     "hits": 2
-    },
-    {
-     "path": "/reports/state-of-ai-agents",
      "hits": 2
     }
    ],
