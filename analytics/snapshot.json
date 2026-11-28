@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-28T09:05:39.351Z",
+ "generated": "2026-11-28T09:15:49.312Z",
  "windowDays": 14,
  "site": {
   "readersNow": 0,
@@ -8,18 +8,18 @@
   "postsThisWeek": 6
  },
  "funnel": {
-  "views": 2706,
+  "views": 2703,
   "reads": 158,
   "completes": 41,
   "plays": 2,
-  "sessions": 2619
+  "sessions": 2616
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2499,
+   "views": 2497,
    "reads": 109,
-   "sessions": 2450
+   "sessions": 2448
   },
   {
    "channel": "organic",
@@ -58,12 +58,6 @@
    "sessions": 1
   },
   {
-   "channel": "campaign:producthunt",
-   "views": 1,
-   "reads": 0,
-   "sessions": 1
-  },
-  {
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
@@ -73,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2499,
+   "views": 2497,
    "reads": 109,
    "completes": 36,
-   "sessions": 2450,
+   "sessions": 2448,
    "read_rate": 0.044,
    "complete_rate": 0.014,
    "pages_per_session": 1.02,
@@ -133,17 +127,6 @@
    "completes": 0,
    "sessions": 2,
    "read_rate": 0.5,
-   "complete_rate": 0,
-   "pages_per_session": 1,
-   "median_dwell_sec": null
-  },
-  {
-   "channel": "campaign:producthunt",
-   "views": 1,
-   "reads": 0,
-   "completes": 0,
-   "sessions": 1,
-   "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -265,9 +248,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2461,
+   "views": 2458,
    "reads": 146,
-   "sessions": 2374
+   "sessions": 2371
   },
   {
    "device": "mobile",
@@ -649,9 +632,9 @@
   },
   {
    "path": "/",
-   "views": 107,
+   "views": 106,
    "reads": 2,
-   "sessions": 110,
+   "sessions": 109,
    "avg_dwell_sec": 13
   },
   {
