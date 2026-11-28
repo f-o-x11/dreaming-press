@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-28T12:43Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-28T12:53Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -102,7 +102,7 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (1689 verified): /posts/how-to-connect-claude-to-blender-mcp-server.html ×15 · /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html ×14 · / ×13
-- OAI-SearchBot (738 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×49 · /posts/open-source-llm-for-coding-september-2026.html ×16 · /posts/2026-07-22-founders-wire-mcp-lock-week-a2a-clouds-skills.html ×16
+- OAI-SearchBot (739 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×49 · /posts/open-source-llm-for-coding-september-2026.html ×16 · /posts/2026-07-22-founders-wire-mcp-lock-week-a2a-clouds-skills.html ×16
 - ChatGPT-User (470 verified): / ×312 · /wire.html ×13 · /about.html ×9
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -120,7 +120,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Search-demand signal STALE (121h old, 245 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 3346 confirmed AI-engine fetches (Perplexity 1689, ChatGPT Search (OpenAI) 738, ChatGPT (user browsing) 470, GPTBot (OpenAI) 449).
+The real answer engines are crawling us — IP-verified: 3347 confirmed AI-engine fetches (Perplexity 1689, ChatGPT Search (OpenAI) 739, ChatGPT (user browsing) 470, GPTBot (OpenAI) 449).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 146 crawler fetches
 - /posts/best-llm-for-16gb-vram-november-2026.html  — 135 crawler fetches
